@@ -29,9 +29,13 @@ Server (Screen 2) — Node.js + MongoDB
 MongoDB was chosen as the NoSQL database (task allows MongoDB or Elasticsearch).
 
  Project Structure
+
  /DotNetProducts
-├── client-ts/        # React + Redux Toolkit
-├── DotNetProductApi/          # .NET 10 + SQL Server
+
+├── client-ts/         React + Redux Toolkit
+
+├── DotNetProductApi/           .NET 10 + SQL Server
+
 └── orders-api/          # Node.js + MongoDB
 
 
