@@ -2,9 +2,11 @@ Full Stack Products & Orders System
 React + Redux Toolkit + .NET 10 API + Node.js + MongoDB
 
 Overview
+
 This project implements a two screen product ordering system using three independent components:
 
 Client — React + Redux Toolkit  
+
 - Displays categories and products(clicking on the category button opens product carts)  
 - Retrieves data from .NET 10 API  
 - Allows adding products to cart  
@@ -13,6 +15,7 @@ Client — React + Redux Toolkit
 - Sends order to Node.js backend
 
 Server (Screen 1) — .NET 10 + SQL Server (PostgerSQL). Can select in Programm.cs SQL Server or PostgreSQL
+
 - Provides categories  
 - Provides products  
 - Uses Entity Framework (code-first) 
@@ -20,6 +23,7 @@ Server (Screen 1) — .NET 10 + SQL Server (PostgerSQL). Can select in Programm.
 - Exposes REST API consumed by React
 
 Server (Screen 2) — Node.js + MongoDB  
+
 - Receives order from React  
 - Saves order into MongoDB  
 - Returns order ID  
@@ -56,6 +60,7 @@ npm start
 .NET 10 API (Screen 1)
 
 Features
+
 - SQL Server database  
 - Entity Framework  
 - Categories endpoint  
@@ -83,8 +88,6 @@ mongodb://localhost:27017
 Database: `ordersdb`  
 Collection: `orders`
 
----
-
 Full-Stack React + Redux Toolkit + .NET 10 API + Node.js + MongoDB 
 can be run all together by batch file ClientRun.bat
 @echo off
@@ -96,8 +99,6 @@ cd ../orders-api
 start cmd /k "npm start"
 echo All services started.
 pause
-
----
  
  Example Order Document
 
