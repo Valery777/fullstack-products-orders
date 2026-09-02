@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="src\app\features\categories\**" />
+    <Compile Remove="src\app\features\products\**" />
+    <Compile Remove="src\app\layout\**" />
+    <Compile Remove="src\app\lib\**" />
+    <Content Remove="src\app\features\categories\**" />
+    <Content Remove="src\app\features\products\**" />
+    <Content Remove="src\app\layout\**" />
+    <Content Remove="src\app\lib\**" />
+    <EmbeddedResource Remove="src\app\features\categories\**" />
+    <EmbeddedResource Remove="src\app\features\products\**" />
+    <EmbeddedResource Remove="src\app\layout\**" />
+    <EmbeddedResource Remove="src\app\lib\**" />
+    <None Remove="src\app\features\categories\**" />
+    <None Remove="src\app\features\products\**" />
+    <None Remove="src\app\layout\**" />
+    <None Remove="src\app\lib\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="src\app\components\CartSummary.tsx" />
+    <None Remove="src\app\components\CategoriesList.tsx" />
+    <None Remove="src\app\components\InstancesTable.tsx" />
+    <None Remove="src\app\components\ProductsList.tsx" />
+    <None Remove="src\app\features\cartSlice.ts" />
+    <None Remove="src\app\features\categoriesSlice.ts" />
+    <None Remove="src\app\features\productsSlice.ts" />
+    <None Remove="src\app\index.tsx" />
+    <None Remove="src\app\pages\OrderPage.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="src\app\components\CartSummary.tsx" />
+    <TypeScriptCompile Include="src\app\components\CategoriesList.tsx" />
+    <TypeScriptCompile Include="src\app\components\ProductsList.tsx" />
+    <TypeScriptCompile Include="src\app\config\config.ts" />
+    <TypeScriptCompile Include="src\app\features\cartSlice.ts" />
+    <TypeScriptCompile Include="src\app\features\categoriesSlice.ts" />
+    <TypeScriptCompile Include="src\app\features\productsSlice.ts" />
+    <TypeScriptCompile Include="src\app\pages\OrderPage.tsx" />
+    <TypeScriptCompile Include="src\index.tsx" />
+    <TypeScriptCompile Include="src\app\store.ts" />
+  </ItemGroup>
+
+</Project>
