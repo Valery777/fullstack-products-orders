@@ -30,8 +30,8 @@ MongoDB was chosen as the NoSQL database (task allows MongoDB or Elasticsearch).
 
  Project Structure
  /DotNetProducts
-├── react-client/        # React + Redux Toolkit
-├── dotnet-api/          # .NET 10 + SQL Server
+├── client-ts/        # React + Redux Toolkit
+├── DotNetProductApi/          # .NET 10 + SQL Server
 └── orders-api/          # Node.js + MongoDB
 
 
@@ -46,9 +46,8 @@ React Client (Screen 1 & 2)
 - Send order to Node.js backend  
 - Back to products button  
 
-Start React
+Start react
 npm start
----
 
 .NET 10 API (Screen 1)
 
@@ -59,12 +58,10 @@ Features
 - Products endpoint  
 - Used by React to display products
 
-Start .NET API
+Start .Net API
 dotnet run
----
 
 Node.js + MongoDB (Screen 2)
-
  Features
 - Express server  
 - Mongoose models  
