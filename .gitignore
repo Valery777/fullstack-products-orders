@@ -1,0 +1,58 @@
+# ============================
+#   Node.js (React + Backend)
+# ============================
+
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# React build output
+client-ts/node_modules/
+client-ts/dist/
+client-ts/build/
+
+# Node.js backend
+orders-api/node_modules/
+
+
+# ============================
+#   .NET / Visual Studio
+# ============================
+
+# VS cache folder (caused your error!)
+.vs/
+
+# Build output
+DotNetProductApi/bin/
+DotNetProductApi/obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Visual Studio Code
+.vscode/
+
+
+# ============================
+#   Environment files
+# ============================
+
+*.env
+*.env.local
+
+
+# ============================
+#   OS junk
+# ============================
+
+Thumbs.db
+.DS_Store
+
+
+# ============================
+#   Backup files
+# ============================
+
+*.bak

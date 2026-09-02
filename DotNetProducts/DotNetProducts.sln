@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37614.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetProductApi", "..\DotNetProductApi\DotNetProductApi.csproj", "{A1263398-B12A-6F05-3C50-47B4E56E2459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsTsClient", "..\client-ts\ProductsTsClient.csproj", "{CD37E27D-2D30-34B4-8466-12DCC1DFA3FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1263398-B12A-6F05-3C50-47B4E56E2459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1263398-B12A-6F05-3C50-47B4E56E2459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1263398-B12A-6F05-3C50-47B4E56E2459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1263398-B12A-6F05-3C50-47B4E56E2459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD37E27D-2D30-34B4-8466-12DCC1DFA3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD37E27D-2D30-34B4-8466-12DCC1DFA3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD37E27D-2D30-34B4-8466-12DCC1DFA3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD37E27D-2D30-34B4-8466-12DCC1DFA3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D550AC34-D16E-498F-BF34-40469128675E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+{"name":"dotnetproducts","version":"1.0.0","private":true,"scripts":{"client":"npm --prefix client-ts start","catalog":"dotnet run --project catalog-api","order":"node order-api/src/app.js","dev":"concurrently \"npm run client\" \"npm run catalog\" \"npm run order\""},"devDependencies":{"concurrently":"^8.2.2"}}
