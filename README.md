@@ -36,7 +36,7 @@ MongoDB was chosen as the NoSQL database (task allows MongoDB or Elasticsearch).
 
 ├── DotNetProductApi/           .NET 10 + SQL Server
 
-└── orders-api/          # Node.js + MongoDB
+└── orders-api/           Node.js + MongoDB
 
 
 React Client (Screen 1 & 2)
