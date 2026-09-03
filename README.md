@@ -1,5 +1,5 @@
 Full Stack Products & Orders System  
-React + Redux Toolkit + .NET 10 API + Node.js + MongoDB
+React + Redux Toolkit + .NET 10 API + SQL Server (PostgreSQL) + Node.js + MongoDB
 
 Overview
 
@@ -14,7 +14,7 @@ Client — React + Redux Toolkit
 - Provides an order summary form  
 - Sends order to Node.js backend
 
-Server (Screen 1) — .NET 10 + SQL Server (PostgerSQL). Can select in Programm.cs SQL Server or PostgreSQL
+Server (Screen 1) — .NET 10 + SQL Server (PostgreSQL). Can select in Program.cs SQL Server or PostgreSQL
 
 - Provides categories  
 - Provides products  
