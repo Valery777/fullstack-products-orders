@@ -38,7 +38,7 @@ MongoDB was chosen as the NoSQL database (task allows MongoDB or Elasticsearch).
 
 ├── client-ts/         React + Redux Toolkit
 
-├── DotNetProductApi/           .NET 10 + SQL Server
+├── DotNetProductApi/           .NET 10 + SQL Server (PostgreSQL)
 
 └── orders-api/           Node.js + MongoDB
 
@@ -61,7 +61,7 @@ npm start
 
 Features
 
-- SQL Server database  
+- SQL Server (PostgreSQL) database  
 - Entity Framework  
 - Categories endpoint  
 - Products endpoint  
